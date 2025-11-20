@@ -24,9 +24,9 @@
       		</form>
 		</div>
 	</nav>
-	<div class="container-fluid bg-primary">
-		<header class="container-fluid p-3 bg-light text-dark text-left">
-			<div class="container-fluid">
+	<div class="container-fluid bg-dark bgblack">
+		<header class="container p-2 bg-light text-dark rounded-1">
+			<div>
 				<h1 class="display-3">History Game</h1>
 				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea laborum architecto in deleniti est molestias culpa nobis rem optio, doloribus, sint et ab.</p>
 				<hr>
@@ -34,10 +34,10 @@
 				<a  href="#" role="button" class="btn btn-success">En Savoir plus &nbsp;&nbsp;</a>
 			</div>
 		</header>
-		<section class="container-fluid">
-			<h3 class="bg-dark p-3 text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+		<section class="container">
+			<h3 class="bg-dark text-light display-6 pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
 			<div class="row">
-				<div class="col-4 bg-light text-dark p-3">
+				<div class="col-4 bg-dark">
 					<div class="list-group">
 					<a href="#" class="list-group-item list-group-item-action">
 						<div class="d-flex w-100 justify-content-between">
@@ -65,34 +65,38 @@
 					</a>
 					</div>
 				</div>
-				<div  class="col-8 bg-light text-dark p-3">
+				<div class="col-8 bg-dark text-light">
 				<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis.
 				</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis,pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis.
 				</p>
-				<a class="btn btn-color" href="#"><i class="fa fa-image"></i>&nbsp;&nbsp;Ajouter une photo</a>
+				<a class="btn btn-color text-light" href="#"><i class="fa fa-image"></i>&nbsp;&nbsp;Ajouter une photo</a>
 				</div>
 			</div>
 		</section>
 		<hr>
-		<h3>Et au commencement il y eut ...</h3>
-		<section class="row">
-			<img  src="img/Space_Invaders.png" alt="Space Invaders" />
-			<img  src="img/Pac_Man.jpg" alt="Pac Man" />
-			<img  src="img/Donkey_Kong.jpg" alt="Donkey Kong" />
-			<img  src="img/Mario_Bros.jpg" alt="Mario" />
-			<img  src="img/Space_Harrier.jpg" alt="Space Harrier" />
-			<img  src="img/Sonic_the_Hedgehog.jpg" alt="Sonic" />
-		</section>
-		<hr>
-		<h3>Donec ut libero sed arcu vehicula ultricies a non tortor :</h3>
-		<div>
+		<div class="container">
+			<h3 class="bg-dark text-light display-6">Et au commencement il y eut ...</h3>
 			<div>
+				<section class="row">
+					<img class="col-md-2" src="img/Space_Invaders.png" alt="Space Invaders" />
+					<img class="col-md-2" src="img/Pac_Man.jpg" alt="Pac Man" />
+					<img class="col-md-2" src="img/Donkey_Kong.jpg" alt="Donkey Kong" />
+					<img class="col-md-2" src="img/Mario_Bros.jpg" alt="Mario" />
+					<img class="col-md-2" src="img/Space_Harrier.jpg" alt="Space Harrier" />
+					<img class="col-md-2" src="img/Sonic_the_Hedgehog.jpg" alt="Sonic" />
+				</section>
+			</div>
+		</div>
+		<hr>
+		<div class="container">
+			<h3 class="bg-dark text-light display-6">Donec ut libero sed arcu vehicula ultricies a non tortor :</h3>
+			<div class="col-md-4 bg-light text-dark">
 				<div>
-					<div>Lorem ipsum dolor sit amet</div>
-					<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. </div>
-					<div>Footer</div>
+					<div class="bg-success p-2 text-light green">Lorem ipsum dolor sit amet</div>
+					<div class="p-2 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis dolor. </div>
+					<div class="bg-success p-2 text-light green">Footer</div>
 				</div>
 			</div>
 			<br>
@@ -100,12 +104,12 @@
 			</div>
 		</div>
 		<hr>
-		<div>
-			<h3>Quelques jeux célèbres et leur chronologie ... </h3>
-			<table>
-				<thead>
+		<div class="container">
+			<h3 class="bg-dark text-light display-6">Quelques jeux célèbres et leur chronologie ... </h3>
+			<table class="table table-dark table-striped table-bordered">
+				<thead class="table-success text-light text-center">
 					<tr>
-						<th>Nom du jeu</th>
+						<th class="col-md-5">Nom du jeu</th>
 						<th>Description</th>
 					</tr>
 				</thead>
